@@ -1,5 +1,5 @@
 export async function load() {
-    const resJSON = await fetch("http://backend:8080/api/task", {
+    const resJSON = await fetch("http://backend:8080/api/tasks", {
         method: "GET"
     });
 
