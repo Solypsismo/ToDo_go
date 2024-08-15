@@ -26,3 +26,5 @@ WORKDIR /app
 
 # Copia solo i file necessari dall'immagine di build
 COPY --from=build /app/ ./
+
+CMD ["npm", "run", "dev", "--", "--host"]
